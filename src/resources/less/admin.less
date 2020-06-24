@@ -1,0 +1,146 @@
+html, body {
+    font-family: Montserrat, 'sans-serif';
+}
+
+header {
+    background: white;
+}
+header h1 {
+    font-variant-caps: all-petite-caps;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+}
+
+header .alert {
+    margin: 0;
+    padding: .25rem 2rem;
+    font-size: .9rem;
+    width: 100%;
+}
+
+header .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex !important;
+    align-items: center;
+}
+header .menu li {
+    float: left;
+}
+header .menu a {
+    display: block;
+    padding: .25rem .5rem;
+    margin: 0 .5rem;
+}
+
+nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav .menu a {
+    display: block;
+    padding: .5rem 2rem;
+    margin: .25rem 0;
+    color: #298b8e;
+    text-decoration: none;
+    transition: padding-left .2s;
+}
+nav .menu a:hover {
+    padding-left: 3rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.15) inset;
+}
+nav .menu #main-menu-user {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+@media (min-width: 992px) {
+    .bar-left {
+        color: #0f6674;
+        max-width: 20rem !important;
+    }
+    nav {
+        position: fixed !important;
+        bottom: 0;
+        top: 0;
+        padding-top: 3.5rem;
+        width: 20rem;
+        background: white;
+    }
+    #toggle-menu {
+        display: none;
+    }
+    #main-menu-user {
+        display: none !important;
+    }
+    #top-menu-user {
+        display: block;
+    }
+}
+@media (max-width: 992px) {
+    #menu {
+        display: none;
+    }
+    #main-menu-user {
+        display: block;
+    }
+    #top-menu-user {
+        display: none;
+    }
+}
+
+
+.text-primary {
+    color: #298b8e !important;
+}
+a {
+    //color: #298b8e !important;
+    text-decoration: none !important;
+}
+a:hover {
+    //color: #21686a !important;
+}
+
+
+.form-group {
+    label {
+        font-size: 0.85rem;
+    }
+}
+
+.table {
+    tbody tr td {
+        vertical-align: middle;
+
+        .thumb {
+            width: 80px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+.panel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: fade(#000, 5%);
+    border: 1px solid fade(#000, 10%);
+    border-radius: 6px;
+    margin-bottom: 25px;
+    padding: 15px 25px;
+
+    .title {
+        margin-bottom: 0;
+        font-weight: 700;
+    }
+}
