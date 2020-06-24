@@ -30,7 +30,7 @@
     <div class="row">
         <div class="col-lg-4 bar-left d-flex align-items-center justify-content-between p-2">
             <a href="{{route('administrator.index')}}">
-                <h1>palmax.com.pl</h1>
+                <h1>Tomsolution.pl</h1>
             </a>
             <button id="toggle-menu" class="btn btn-link text-primary" onclick="toggleMenu()"><i
                     class="fas fa-bars"></i></button>
@@ -145,7 +145,7 @@
     <div class="row">
         <div class="col d-flex flex-column justify-content-center align-items-center p-2">
             <span>Wszystkie prawa zastrzeżone</span>
-            <a href="http://palmax.com.pl/">palmax.com.pl</a>
+            <a href="tomsolution.pl">tomsolution.pl</a>
         </div>
     </div>
 </footer>

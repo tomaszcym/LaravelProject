@@ -95,7 +95,7 @@
                     <div class="col-md-8 col-lg-6">
                         <div class="content">
                             {!! $text8 !!}
-                            <a href="{{route('page.show.dostawa-kostki')}}" class="button-blue">Czytaj więcej</a>
+                            <a href="{{route('page.show.realizacje')}}" class="button-blue">Czytaj więcej</a>
                         </div>
                     </div>
                 </div>

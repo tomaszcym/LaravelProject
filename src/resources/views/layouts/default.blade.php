@@ -89,11 +89,8 @@
                         <li class="{{ request()->routeIs('page.show.galeria') ? 'active' : '' }}">
                             <a href="{{route('page.show.galeria')}}"><i class="far fa-images mr-2"></i>Galeria</a>
                         </li>
-                        <li class="{{ request()->routeIs('page.show.dostawa-kostki') ? 'active' : '' }}">
-                            <a href="{{route('page.show.dostawa-kostki')}}"><i class="fas fa-truck mr-2"></i>Dostawa kostki</a>
-                        </li>
-                        <li>
-                            <a href="https://www.bruk-bet.pl/do-pobrania" target="_blank"><i class="fas fa-donate mr-2"></i>Cennik</a>
+                        <li class="{{ request()->routeIs('page.show.realizacje') ? 'active' : '' }}">
+                            <a href="{{route('page.show.realizacje')}}"><i class="fas fa-truck mr-2"></i>Realizacje</a>
                         </li>
                         <li class="{{ request()->routeIs('page.show.kontakt') ? 'active' : '' }}">
                             <a href="{{route('page.show.kontakt')}}"><i class="far fa-address-card mr-2"></i>Kontakt</a>
@@ -125,7 +122,7 @@
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--                <div class="col-md">--}}
-{{--                    <p class="par-1 code-by"><a href="https://www.palmax.com.pl">palmax.com.pl</a></p>--}}
+{{--                    <p class="par-1 code-by"><a href="tomsolution.pl">tomsolution.pl</a></p>--}}
 {{--                </div>--}}
 {{--            </div>--}}
 {{--        </div>--}}
@@ -161,10 +158,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="par-1 text">Wszystkie prawa zastrzeżone <a href="www.markub.eu">www.markub.eu</a></p>
+                    <p class="par-1 text">Wszystkie prawa zastrzeżone <a href="www.tomsolution.pl">www.tomsolution.pl</a></p>
                 </div>
                 <div class="col-md-6">
-                    <p class="par-1 code-by"><a href="https://www.palmax.com.pl">palmax.com.pl</a></p>
+                    <p class="par-1 code-by"><a href="www.tomsolution.pl">www.tomsolution.pl</a></p>
                 </div>
             </div>
         </div>
